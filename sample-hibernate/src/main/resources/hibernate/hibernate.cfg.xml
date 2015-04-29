@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+  <session-factory>
+  	<!-- MySQL Dialect -->
+    <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+    
+    <!-- MySQL Connection details -->
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="connection.url">jdbc:mysql://localhost:3306/tutorials</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">root</property>
+
+	<!-- Cache and transaction related properties -->
+    <property name="cache.provider_class">org.hibernate.cache.HashtableCacheProvider</property>
+    <property name="transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+    <property name="current_session_context_class">thread</property>
+    
+    <!-- Property to show all executed sql queries -->
+    <property name="hibernate.show_sql">true</property>
+    
+    <!-- JDBC connection pool (use the built-in) -->
+	<property name="connection.pool_size">1</property>
+    
+    <!-- Create schema at startup -->
+    <property name="hbm2ddl.auto">create</property>
+    
+    <!-- Mapping file location -->
+    <!-- <mapping resource="/customer.hbm.xml"/> -->
+    
+    <!-- mappings for annotated classes -->
+    <mapping class="com.ys.hibernate.testing.dto.UserEntityBean" />
+    <mapping class="com.ys.hibernate.testing.dto.Vehicle" />
+    <mapping class="com.ys.hibernate.testing.dto.AutoInsurance" />
+    
+  </session-factory>
+
+</hibernate-configuration>

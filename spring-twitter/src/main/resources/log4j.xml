@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!-- Appender for system.out logs -->
+	<appender name="sysOutConsole" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-5p %c - %m%n" />
+		</layout>
+	</appender>
+	
+	<!-- Appender for twitter -->
+	<appender class="org.apache.log4j.RollingFileAppender" name="twitterApplication">
+		<param value="twitterApplication.log" name="File" />
+		<param value="5" name="MaxBackupIndex" />
+		<param value="1MB" name="MaxFileSize" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="%d [%t] %p %c{1} %x - %m%n %throwable{short}" />
+		</layout>
+	</appender>
+	
+	<!-- Appender for spring logs -->
+	<appender class="org.apache.log4j.RollingFileAppender" name="springFile">
+		<param value="springlogs.log" name="File" />
+		<param value="5" name="MaxBackupIndex" />
+		<param value="1MB" name="MaxFileSize" />
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<!-- tried to use date pattern: %d{ISO8601} According to Javadoc, has 
+				significantly better performance than the default... but it caused this appender 
+				to stop working. -->
+			<param name="ConversionPattern" value="%d [%t] %p %c{1} %x - %m%n %throwable{short}" />
+		</layout>
+	</appender>
+
+	<logger name="org.apache" additivity="false">
+		<level value="info" />
+	</logger>
+	<logger name="org.springframework" additivity="false">
+		<level value="info" />
+		<appender-ref ref="springFile" />
+	</logger>
+
+	<root>
+		<level value="debug" />
+		<appender-ref ref="twitterApplication" />
+		<appender-ref ref="sysOutConsole" />
+	</root>
+</log4j:configuration>

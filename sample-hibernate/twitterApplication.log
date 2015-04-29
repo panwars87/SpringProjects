@@ -1,0 +1,35 @@
+2014-06-20 10:03:18,762 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 10:03:20,353 [main] INFO DatabaseMetaData null - HHH000262: Table not found: UserEntity
+ 2014-06-20 10:03:20,355 [main] INFO DatabaseMetaData null - HHH000262: Table not found: UserEntity
+ 2014-06-20 10:03:20,355 [main] INFO DatabaseMetaData null - HHH000262: Table not found: UserEntity
+ 2014-06-20 10:04:01,631 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 10:04:45,231 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 10:20:41,744 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 10:23:09,553 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 10:23:28,983 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 10:58:05,627 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 10:58:49,913 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 11:00:18,609 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 11:00:56,621 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 11:08:04,267 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 11:14:40,906 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 11:15:25,442 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 11:58:16,207 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 15:35:19,761 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 15:36:30,386 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-20 15:40:03,155 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 12:04:35,619 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 12:06:51,038 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 12:09:34,969 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 12:14:09,260 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 13:12:28,276 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 13:13:38,408 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 13:33:56,613 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 13:39:41,320 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 14:10:11,294 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 14:11:28,540 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 14:13:21,408 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 14:17:43,879 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 14:19:46,782 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 2014-06-24 14:21:45,856 [main] DEBUG logging null - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ 

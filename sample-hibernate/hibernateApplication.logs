@@ -1,0 +1,415 @@
+2014-06-20 11:14:40,999 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-20 11:14:41,009 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-20 11:14:41,012 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-20 11:14:41,013 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-20 11:14:41,035 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-20 11:14:41,035 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-20 11:14:41,064 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-20 11:14:41,086 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-20 11:14:41,197 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-20 11:14:41,209 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-20 11:14:41,210 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-20 11:14:41,210 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-20 11:14:41,211 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-20 11:14:41,597 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-20 11:14:41,607 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-20 11:14:41,735 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-20 11:14:42,006 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-20 11:14:42,023 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-20 11:15:25,540 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-20 11:15:25,550 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-20 11:15:25,552 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-20 11:15:25,554 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-20 11:15:25,576 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-20 11:15:25,576 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-20 11:15:25,606 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-20 11:15:25,630 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-20 11:15:25,733 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-20 11:15:25,747 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-20 11:15:25,748 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-20 11:15:25,748 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-20 11:15:25,750 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-20 11:15:26,116 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-20 11:15:26,127 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-20 11:15:26,247 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-20 11:15:26,537 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-20 11:15:26,579 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-20 11:58:16,308 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-20 11:58:16,318 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-20 11:58:16,320 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-20 11:58:16,322 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-20 11:58:16,350 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-20 11:58:16,350 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-20 11:58:16,381 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-20 11:58:16,407 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-20 11:58:16,517 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-20 11:58:16,530 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-20 11:58:16,530 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-20 11:58:16,530 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-20 11:58:16,532 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-20 11:58:16,913 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-20 11:58:16,923 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-20 11:58:17,108 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-20 11:58:17,403 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-20 11:58:17,422 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-20 15:35:19,857 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-20 15:35:19,865 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-20 15:35:19,869 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-20 15:35:19,870 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-20 15:35:19,891 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-20 15:35:19,891 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-20 15:35:19,920 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-20 15:35:19,944 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-20 15:35:20,044 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-20 15:35:20,059 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-20 15:35:20,060 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-20 15:35:20,060 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-20 15:35:20,061 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-20 15:35:20,451 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-20 15:35:20,461 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-20 15:35:20,674 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-20 15:35:21,135 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-20 15:35:21,144 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table UserEntityBean_listOfAddress drop foreign key FK_i7vt2bgw3vq4hmc9rm997i2b5
+ 2014-06-20 15:35:21,145 [main] ERROR SchemaExport null - Table 'tutorials.userentitybean_listofaddress' doesn't exist
+ 2014-06-20 15:35:21,172 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-20 15:35:21,273 [main] WARN SqlExceptionHelper null - SQL Error: 1062, SQLState: 23000
+ 2014-06-20 15:35:21,273 [main] ERROR SqlExceptionHelper null - Duplicate entry '1-48377' for key 'PRIMARY'
+ 2014-06-20 15:35:21,274 [main] INFO AbstractBatchImpl null - HHH000010: On release of batch it still contained JDBC statements
+ 2014-06-20 15:36:30,482 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-20 15:36:30,492 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-20 15:36:30,494 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-20 15:36:30,496 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-20 15:36:30,517 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-20 15:36:30,517 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-20 15:36:30,545 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-20 15:36:30,569 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-20 15:36:30,674 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-20 15:36:30,687 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-20 15:36:30,688 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-20 15:36:30,688 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-20 15:36:30,689 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-20 15:36:31,056 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-20 15:36:31,066 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-20 15:36:31,241 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-20 15:36:31,550 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-20 15:36:31,634 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-20 15:36:31,730 [main] WARN SqlExceptionHelper null - SQL Error: 1062, SQLState: 23000
+ 2014-06-20 15:36:31,730 [main] ERROR SqlExceptionHelper null - Duplicate entry '1-48377' for key 'PRIMARY'
+ 2014-06-20 15:36:31,731 [main] INFO AbstractBatchImpl null - HHH000010: On release of batch it still contained JDBC statements
+ 2014-06-20 15:40:03,278 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-20 15:40:03,292 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-20 15:40:03,295 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-20 15:40:03,298 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-20 15:40:03,329 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-20 15:40:03,329 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-20 15:40:03,361 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-20 15:40:03,384 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-20 15:40:03,490 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-20 15:40:03,504 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-20 15:40:03,504 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-20 15:40:03,505 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-20 15:40:03,506 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-20 15:40:03,882 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-20 15:40:03,891 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-20 15:40:04,055 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-20 15:40:04,358 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-20 15:40:04,408 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 12:04:35,795 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 12:04:35,809 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 12:04:35,811 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 12:04:35,815 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 12:04:35,850 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 12:04:35,850 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 12:04:35,932 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 12:04:35,979 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 12:04:36,177 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 12:04:36,209 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 12:04:36,210 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 12:04:36,210 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 12:04:36,211 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 12:04:37,025 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 12:04:37,040 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 12:04:37,340 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 12:04:38,029 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 12:04:38,058 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table UserAddress drop foreign key FK_4y95kfcb7dxx8rj3xp5bqeki
+ 2014-06-24 12:04:38,058 [main] ERROR SchemaExport null - Table 'tutorials.useraddress' doesn't exist
+ 2014-06-24 12:04:38,060 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: drop table if exists UserEntity
+ 2014-06-24 12:04:38,060 [main] ERROR SchemaExport null - Cannot delete or update a parent row: a foreign key constraint fails
+ 2014-06-24 12:04:38,067 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: create table UserEntity (userId integer not null auto_increment, dob varchar(255), firstName varchar(255), lastName varchar(255), userDescription longtext, userName varchar(255), primary key (userId))
+ 2014-06-24 12:04:38,067 [main] ERROR SchemaExport null - Table 'userentity' already exists
+ 2014-06-24 12:04:38,081 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 12:06:51,131 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 12:06:51,141 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 12:06:51,143 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 12:06:51,145 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 12:06:51,166 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 12:06:51,167 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 12:06:51,198 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 12:06:51,224 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 12:06:51,326 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 12:06:51,339 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 12:06:51,340 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 12:06:51,340 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 12:06:51,341 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 12:06:51,726 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 12:06:51,737 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 12:06:51,913 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 12:06:52,203 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 12:06:52,259 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 12:09:35,076 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 12:09:35,089 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 12:09:35,092 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 12:09:35,094 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 12:09:35,119 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 12:09:35,119 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 12:09:35,149 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 12:09:35,171 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 12:09:35,278 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 12:09:35,292 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 12:09:35,293 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 12:09:35,293 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 12:09:35,294 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 12:09:35,662 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 12:09:35,672 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 12:09:35,852 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 12:09:36,190 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 12:09:36,210 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table UserAddress drop foreign key FK_o74f3c8aua2m4a1f3i8kl2rv4
+ 2014-06-24 12:09:36,211 [main] ERROR SchemaExport null - Error on rename of '.\tutorials\useraddress' to '.\tutorials\#sql2-18f4-d' (errno: 152)
+ 2014-06-24 12:09:36,247 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 12:14:09,361 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 12:14:09,371 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 12:14:09,374 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 12:14:09,377 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 12:14:09,404 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 12:14:09,404 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 12:14:09,435 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 12:14:09,464 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 12:14:09,573 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 12:14:09,589 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 12:14:09,590 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 12:14:09,590 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 12:14:09,592 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 12:14:09,985 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 12:14:09,995 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 12:14:10,183 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 12:14:10,547 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 12:14:10,564 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table UserAddress drop foreign key FK_6lp356d9swwklnpw1n5539r9s
+ 2014-06-24 12:14:10,564 [main] ERROR SchemaExport null - Error on rename of '.\tutorials\useraddress' to '.\tutorials\#sql2-18f4-e' (errno: 152)
+ 2014-06-24 12:14:10,611 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 13:12:28,385 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 13:12:28,397 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 13:12:28,399 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 13:12:28,401 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 13:12:28,427 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 13:12:28,427 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 13:12:28,471 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 13:12:28,497 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 13:12:28,613 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 13:12:28,629 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 13:12:28,629 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 13:12:28,630 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 13:12:28,631 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 13:12:29,018 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 13:12:29,030 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 13:12:29,242 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 13:12:29,577 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 13:12:29,637 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table UserEntity drop foreign key FK_2hs5h9p7uap172h14mmafkc6i
+ 2014-06-24 13:12:29,638 [main] ERROR SchemaExport null - Error on rename of '.\tutorials\userentity' to '.\tutorials\#sql2-18f4-10' (errno: 152)
+ 2014-06-24 13:12:29,778 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 13:13:38,521 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 13:13:38,533 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 13:13:38,535 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 13:13:38,537 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 13:13:38,562 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 13:13:38,562 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 13:13:38,593 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 13:13:38,620 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 13:13:38,742 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 13:13:38,759 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 13:13:38,759 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 13:13:38,760 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 13:13:38,762 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 13:13:39,155 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 13:13:39,166 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 13:13:39,380 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 13:13:39,711 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 13:13:39,903 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 13:33:56,735 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 13:33:56,745 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 13:33:56,747 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 13:33:56,749 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 13:33:56,773 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 13:33:56,773 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 13:33:56,806 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 13:33:56,834 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 13:33:56,953 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 13:33:56,969 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 13:33:56,970 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 13:33:56,970 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 13:33:56,972 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 13:33:57,356 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 13:33:57,369 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 13:33:57,577 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 13:33:57,913 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 13:33:58,012 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 13:39:41,440 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 13:39:41,449 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 13:39:41,452 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 13:39:41,454 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 13:39:41,485 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 13:39:41,485 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 13:39:41,517 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 13:39:41,544 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 13:39:41,666 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 13:39:41,679 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 13:39:41,679 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 13:39:41,680 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 13:39:41,681 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 13:39:42,117 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 13:39:42,130 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 13:39:42,346 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 13:39:42,686 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 13:39:42,812 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 14:10:11,393 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 14:10:11,404 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 14:10:11,406 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 14:10:11,408 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 14:10:11,431 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 14:10:11,431 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 14:10:11,459 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 14:10:11,484 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 14:10:11,593 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 14:10:11,606 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 14:10:11,607 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 14:10:11,607 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 14:10:11,608 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 14:10:11,970 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 14:10:11,980 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 14:10:12,216 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 14:10:12,541 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 14:10:12,550 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table AutoInsurance drop foreign key FK_ta6kkl0ij6ih1puwyrb2if976
+ 2014-06-24 14:10:12,550 [main] ERROR SchemaExport null - Table 'tutorials.autoinsurance' doesn't exist
+ 2014-06-24 14:10:12,574 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table UserEntity drop foreign key FK_haxrgepa0jkjrod3frvcdhtul
+ 2014-06-24 14:10:12,574 [main] ERROR SchemaExport null - Error on rename of '.\tutorials\userentity' to '.\tutorials\#sql2-18f4-18' (errno: 152)
+ 2014-06-24 14:10:12,583 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table Vehicle drop foreign key FK_f6wag2vaegucmx2j6irp1x8u2
+ 2014-06-24 14:10:12,583 [main] ERROR SchemaExport null - Error on rename of '.\tutorials\vehicle' to '.\tutorials\#sql2-18f4-18' (errno: 152)
+ 2014-06-24 14:10:12,584 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table userVehicle drop foreign key FK_my8nw14ovypdtj6u21k1bg4vi
+ 2014-06-24 14:10:12,584 [main] ERROR SchemaExport null - Table 'tutorials.uservehicle' doesn't exist
+ 2014-06-24 14:10:12,584 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table userVehicle drop foreign key FK_k5g1rcmgn7dsx3xc8ne4krkck
+ 2014-06-24 14:10:12,585 [main] ERROR SchemaExport null - Table 'tutorials.uservehicle' doesn't exist
+ 2014-06-24 14:10:12,729 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 14:11:28,637 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 14:11:28,647 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 14:11:28,649 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 14:11:28,651 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 14:11:28,677 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 14:11:28,677 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 14:11:28,709 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 14:11:28,733 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 14:11:28,849 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 14:11:28,862 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 14:11:28,862 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 14:11:28,863 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 14:11:28,864 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 14:11:29,250 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 14:11:29,261 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 14:11:29,480 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 14:11:29,834 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 14:11:30,084 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 14:13:21,508 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 14:13:21,521 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 14:13:21,524 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 14:13:21,526 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 14:13:21,551 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 14:13:21,551 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 14:13:21,586 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 14:13:21,617 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 14:13:21,741 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 14:13:21,754 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 14:13:21,755 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 14:13:21,755 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 14:13:21,756 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 14:13:22,152 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 14:13:22,162 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 14:13:22,370 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 14:13:22,734 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 14:13:22,985 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 14:17:43,963 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 14:17:43,973 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 14:17:43,975 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 14:17:43,977 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 14:17:44,005 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 14:17:44,005 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 14:17:44,032 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 14:17:44,055 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 14:17:44,159 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 14:17:44,172 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 14:17:44,172 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 14:17:44,172 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 14:17:44,174 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 14:17:44,565 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 14:17:44,577 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 14:17:44,813 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 14:17:45,203 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 14:17:45,288 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: drop table if exists UserEntity
+ 2014-06-24 14:17:45,288 [main] ERROR SchemaExport null - Cannot delete or update a parent row: a foreign key constraint fails
+ 2014-06-24 14:17:45,313 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: create table UserEntity (userId integer not null auto_increment, dob varchar(255), firstName varchar(255), lastName varchar(255), userDescription longtext, userName varchar(255), insuranceId integer, primary key (userId))
+ 2014-06-24 14:17:45,313 [main] ERROR SchemaExport null - Table 'userentity' already exists
+ 2014-06-24 14:17:45,401 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table UserEntity add constraint FK_haxrgepa0jkjrod3frvcdhtul foreign key (insuranceId) references AutoInsurance (insuranceId)
+ 2014-06-24 14:17:45,402 [main] ERROR SchemaExport null - Cannot add or update a child row: a foreign key constraint fails (`tutorials`.<result 2 when explaining filename '#sql-18f4_1c'>, CONSTRAINT `FK_haxrgepa0jkjrod3frvcdhtul` FOREIGN KEY (`insuranceId`) REFERENCES `autoinsurance` (`insuranceId`))
+ 2014-06-24 14:17:45,434 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 14:19:46,874 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 14:19:46,883 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 14:19:46,886 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 14:19:46,888 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 14:19:46,909 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 14:19:46,909 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 14:19:46,938 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 14:19:46,961 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 14:19:47,070 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 14:19:47,084 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 14:19:47,085 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 14:19:47,085 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 14:19:47,086 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 14:19:47,477 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 14:19:47,487 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 14:19:47,694 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 14:19:48,008 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 14:19:48,055 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table UserEntity drop foreign key FK_haxrgepa0jkjrod3frvcdhtul
+ 2014-06-24 14:19:48,055 [main] ERROR SchemaExport null - Error on rename of '.\tutorials\userentity' to '.\tutorials\#sql2-18f4-1e' (errno: 152)
+ 2014-06-24 14:19:48,063 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table userVehicle drop foreign key FK_f5s7nk0dpdljuvao38fftovx0
+ 2014-06-24 14:19:48,063 [main] ERROR SchemaExport null - Error on rename of '.\tutorials\uservehicle' to '.\tutorials\#sql2-18f4-1e' (errno: 152)
+ 2014-06-24 14:19:48,072 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table userVehicle drop foreign key FK_3e64tedbcniycwrq6ftcvh3f
+ 2014-06-24 14:19:48,073 [main] ERROR SchemaExport null - Error on rename of '.\tutorials\uservehicle' to '.\tutorials\#sql2-18f4-1e' (errno: 152)
+ 2014-06-24 14:19:48,079 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: drop table if exists UserEntity
+ 2014-06-24 14:19:48,079 [main] ERROR SchemaExport null - Cannot delete or update a parent row: a foreign key constraint fails
+ 2014-06-24 14:19:48,080 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: drop table if exists Vehicle
+ 2014-06-24 14:19:48,080 [main] ERROR SchemaExport null - Cannot delete or update a parent row: a foreign key constraint fails
+ 2014-06-24 14:19:48,100 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: create table UserEntity (userId integer not null auto_increment, dob varchar(255), firstName varchar(255), lastName varchar(255), userDescription longtext, userName varchar(255), insuranceId integer, primary key (userId))
+ 2014-06-24 14:19:48,100 [main] ERROR SchemaExport null - Table 'userentity' already exists
+ 2014-06-24 14:19:48,101 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: create table Vehicle (vehicleId integer not null auto_increment, vehicleName varchar(255), primary key (vehicleId))
+ 2014-06-24 14:19:48,101 [main] ERROR SchemaExport null - Table 'vehicle' already exists
+ 2014-06-24 14:19:48,161 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table UserEntity add constraint FK_haxrgepa0jkjrod3frvcdhtul foreign key (insuranceId) references AutoInsurance (insuranceId)
+ 2014-06-24 14:19:48,161 [main] ERROR SchemaExport null - Cannot add or update a child row: a foreign key constraint fails (`tutorials`.<result 2 when explaining filename '#sql-18f4_1e'>, CONSTRAINT `FK_haxrgepa0jkjrod3frvcdhtul` FOREIGN KEY (`insuranceId`) REFERENCES `autoinsurance` (`insuranceId`))
+ 2014-06-24 14:19:48,196 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 2014-06-24 14:21:45,958 [main] INFO Version null - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+ 2014-06-24 14:21:45,968 [main] INFO Version null - HHH000412: Hibernate Core {4.3.5.Final}
+ 2014-06-24 14:21:45,969 [main] INFO Environment null - HHH000206: hibernate.properties not found
+ 2014-06-24 14:21:45,971 [main] INFO Environment null - HHH000021: Bytecode provider name : javassist
+ 2014-06-24 14:21:45,993 [main] INFO Configuration null - HHH000043: Configuring from resource: /hibernate.cfg.xml
+ 2014-06-24 14:21:45,994 [main] INFO Configuration null - HHH000040: Configuration resource: /hibernate.cfg.xml
+ 2014-06-24 14:21:46,025 [main] WARN DTDEntityResolver null - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+ 2014-06-24 14:21:46,048 [main] INFO Configuration null - HHH000041: Configured SessionFactory: null
+ 2014-06-24 14:21:46,167 [main] WARN DriverManagerConnectionProviderImpl null - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+ 2014-06-24 14:21:46,183 [main] INFO DriverManagerConnectionProviderImpl null - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/tutorials]
+ 2014-06-24 14:21:46,183 [main] INFO DriverManagerConnectionProviderImpl null - HHH000046: Connection properties: {user=root, password=****}
+ 2014-06-24 14:21:46,184 [main] INFO DriverManagerConnectionProviderImpl null - HHH000006: Autocommit mode: false
+ 2014-06-24 14:21:46,185 [main] INFO DriverManagerConnectionProviderImpl null - HHH000115: Hibernate connection pool size: 1 (min=1)
+ 2014-06-24 14:21:46,631 [main] INFO Dialect null - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2014-06-24 14:21:46,644 [main] INFO LobCreatorBuilder null - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+ 2014-06-24 14:21:46,862 [main] INFO ASTQueryTranslatorFactory null - HHH000397: Using ASTQueryTranslatorFactory
+ 2014-06-24 14:21:47,192 [main] INFO SchemaExport null - HHH000227: Running hbm2ddl schema export
+ 2014-06-24 14:21:47,240 [main] ERROR SchemaExport null - HHH000389: Unsuccessful: alter table UserEntity drop foreign key FK_haxrgepa0jkjrod3frvcdhtul
+ 2014-06-24 14:21:47,241 [main] ERROR SchemaExport null - Error on rename of '.\tutorials\userentity' to '.\tutorials\#sql2-18f4-20' (errno: 152)
+ 2014-06-24 14:21:47,400 [main] INFO SchemaExport null - HHH000230: Schema export complete
+ 
