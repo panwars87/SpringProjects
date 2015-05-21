@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/main.css">
+    <title>AngularJS Routing example</title>
+  </head>
+
+  <body ng-app="sampleApp" ng-controller="OrderController">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-9">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>#</th><th>Order No.</th><th>Details</th><th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="course in courseList">
+              	<td>{{ course.courseId }}</td>
+              	<td>{{ course.courseName }}</td>
+              	<td>{{ course.courseNumber }}</td>
+                
+                <td><a href="#/update/{{course.courseId}}">Update</a> | 
+                    <a href="#/delete/{{course.courseId}}">Delete</a>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+ 
+        <div ng-view=""></div>
+    </div>
+        <div class="col-md-3">
+            <button ng-click="showAddCourse()" >Add Course</button>
+        </div>
+    </div>
+    </div>
+ 
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/controller/controller.js"></script>
+    
+    <script type="text/ng-template" id="delete_course.html">
+      <h2>Loaded from local template</h2>
+      <h2>{{ message }} #{{ courseId }}</h2>
+       
+       Your course with id <b>#{{courseId}}</b> has been confirmed for deletion. Thank you!
+    </script>
+
+  </body>
+</html>

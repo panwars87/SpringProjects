@@ -1,0 +1,14 @@
+<h2>Update for Course #{{courseId}}</h2>
+<br />
+Here are the details for order <b>#{{courseId}}</b>.
+
+<form>
+	<input type="hidden" ng-model="course.courseId" /><br />
+	CourseName : <input type="text" ng-model="course.courseName" /><br />
+	CourseNumber : <input type="text" ng-model="course.courseNumber" /><br />
+	<input type="submit" ng-click="updateCourse()" />
+</form>
+<br />
+<div ng-show="cnfmUpdate">
+    {{ message }}
+</div>

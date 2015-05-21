@@ -1,0 +1,16 @@
+<h2>Add Course</h2>
+<br />
+
+<form name="addForm" ng-submit="addCourse()">
+	<input type="hidden" ng-model="course.courseId" /><br />
+	CourseName : <input type="text" ng-model="course.courseName" /><br />
+	CourseNumber : <input type="text" ng-model="course.courseNumber" /><br />
+	<input type="submit" />
+</form>
+<br />
+<div ng-show="cnfmAdd">
+    {{ message }}
+</div>
+<div ng-show="!cnfmAdd">
+    {{ message }}
+</div>
