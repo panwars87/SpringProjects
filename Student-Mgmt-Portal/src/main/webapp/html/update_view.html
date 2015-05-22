@@ -2,11 +2,11 @@
 <br />
 Here are the details for order <b>#{{courseId}}</b>.
 
-<form>
+<form name="addForm" ng-submit="updateCourse()">
 	<input type="hidden" ng-model="course.courseId" /><br />
 	CourseName : <input type="text" ng-model="course.courseName" /><br />
 	CourseNumber : <input type="text" ng-model="course.courseNumber" /><br />
-	<input type="submit" ng-click="updateCourse()" />
+	<input type="submit" />
 </form>
 <br />
 <div ng-show="cnfmUpdate">

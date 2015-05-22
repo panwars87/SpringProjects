@@ -1,5 +1,7 @@
 package ys.pdev.learning.service;
 
+import java.util.List;
+
 import ys.pdev.learning.model.Course;
 
 public interface CourseService {
@@ -9,4 +11,6 @@ public interface CourseService {
 	boolean deleteCourse(int courseId);
 	
 	Course addCourse(Course course);
+	
+	List<Course> getCourses();
 }

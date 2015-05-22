@@ -1,5 +1,7 @@
 package ys.pdev.learning.service.impl;
 
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,12 +21,12 @@ private static final Logger _log = LoggerFactory.getLogger(CourseService.class);
 	
 	public boolean updateCourse(Course course){
 		_log.info("Inside update Course service impl");
-		return false;
+		return courseRepository.updateCourse(course);
 	}
 	
 	public boolean deleteCourse(int courseId){
 		_log.info("Inside delete Course service impl");
-		return false;
+		return courseRepository.deleteCourse(courseId);
 	}
 
 	@Override
@@ -32,5 +34,13 @@ private static final Logger _log = LoggerFactory.getLogger(CourseService.class);
 		// TODO Auto-generated method stub
 		_log.info("Inside adding Course service impl");
 		return course;
+	}
+
+	@Override
+	public List<Course> getCourses() {
+		// TODO Auto-generated method stub
+		_log.info("Inside pulling all courses methods");
+		
+		return courseRepository.getCourses();
 	}
 }

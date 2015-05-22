@@ -6,6 +6,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import ys.pdev.learning.model.Course;
 import ys.pdev.learning.model.JSONResponseModel;
 import ys.pdev.learning.model.Student;
+import ys.pdev.learning.service.CourseService;
 import ys.pdev.learning.service.StudentService;
 import ys.pdev.learning.util.ResponseStatusEnum;
 
@@ -29,6 +31,9 @@ public class LoginController {
 
 	@Autowired
 	private StudentService studentService;
+	
+	@Autowired
+	private CourseService courseService;
 	
     @RequestMapping(value="/authenticateUser")
     public JSONResponseModel<String> authenticateUser(@RequestBody Student student) {
@@ -52,17 +57,15 @@ public class LoginController {
 		_log.info("REST called, getting courses details");
 		
 		JSONResponseModel<List<Course>> response = new JSONResponseModel<List<Course>>();
-		List<Course> courseList = new ArrayList<Course>();
-		for(int i=0;i<3;i++){
-			Course course = new Course();
-			course.setCourseId(i+1);
-			course.setCourseName("Maths");
-			course.setCourseNumber("MTH01"+i);
-			course.setCourseDescription("This is a math course");
-			courseList.add(course);
+		List<Course> courseList = courseService.getCourses();
+		
+		if(courseList != null && courseList.size() > 0){
+			response.setData(courseList);
+			response.setStatus("true");
+		}else{
+			response.setStatus("false");
 		}
-		response.setData(courseList);
-		response.setStatus("true");
+				
 		return response;
     }
 	

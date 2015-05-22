@@ -26,10 +26,14 @@ public class UpdateCourseController {
 		_log.info("REST called, updating course details");
 		JSONResponseModel<String> response = new JSONResponseModel<String>();
 		
-		courseService.updateCourse(course);
+		if(courseService.updateCourse(course)){
+			response.setData("Successfully updated course :"+ course);
+			response.setStatus(ResponseStatusEnum.SUCCESS.getStatus());
+		}else{
+			response.setData("Update failed");
+			response.setStatus(ResponseStatusEnum.FAILED.getStatus());
+		}
 		
-		response.setData("Successfully updated course :"+ course);
-		response.setStatus(ResponseStatusEnum.SUCCESS.getStatus());
 		return response;
     }
 	

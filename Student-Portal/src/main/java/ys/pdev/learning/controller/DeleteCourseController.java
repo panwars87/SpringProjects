@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import ys.pdev.learning.model.JSONResponseModel;
 import ys.pdev.learning.service.CourseService;
+import ys.pdev.learning.util.ResponseStatusEnum;
 
 @RestController
 @RequestMapping("/delete")
@@ -24,9 +25,16 @@ public class DeleteCourseController {
 		_log.info("Delete user REST service called");
 		JSONResponseModel<String> response = new JSONResponseModel<String>();
 		
-		courseService.deleteCourse(courseId);
+		boolean deleteStatus = courseService.deleteCourse(courseId);
 		
-		response.setData("Successfully deleted course");
+		if(deleteStatus){
+			response.setData("Successfully deleted course");
+			response.setStatus(ResponseStatusEnum.SUCCESS.getStatus());
+		}else{
+			response.setData("Successfully deleted course");
+			response.setStatus(ResponseStatusEnum.FAILED.getStatus());
+		}
+		
 		return response;
     }
 	

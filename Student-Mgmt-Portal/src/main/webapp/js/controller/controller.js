@@ -11,13 +11,17 @@ var DeleteController = function($scope, $routeParams, serviceMethods){
 
 var UpdateController = function($scope, $routeParams, serviceMethods){
 	$scope.courseId = $routeParams.courseId;
-	$scope.updateCourse = function(){
-        var dataObj = {
-				courseId : $scope.course.courseId,
-				courseName : $scope.course.courseName,
-				courseNumber : $scope.course.courseNumber
-		};
-        //console.log("Data is : " + JSON.stringify(dataObj));
+    
+    for(var i in $scope.courseList){
+        
+        if($scope.courseList[i].courseId == $scope.courseId){
+            $scope.course=angular.copy($scope.courseList[i]);
+        }
+    }
+    
+    $scope.updateCourse = function(){
+        var dataObj=$scope.course;  
+        console.log("Data is : " + JSON.stringify(dataObj));
         var request = serviceMethods.updateCourse(JSON.stringify(dataObj));
 	    request.success(function(data, status, headers, config) {
 		  //console.log(data);
