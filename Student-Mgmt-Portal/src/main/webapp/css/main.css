@@ -1,3 +1,52 @@
-table tr > th, tr > td{
-  border: 1px solid black;
+﻿table, tbody{
+	text-align: center;
+}
+table, td {
+	color: #000;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.loginForm {
+  	background-color: #fff;
+  	margin: 0px 0px 0px 490px;
+  	border-radius: 5px;
+  	width: 325px;
+}
+.studentForm {
+  	background-color: #fff;
+  	padding: 10px
+  	border-radius: 5px;
+}
+.loginDiv {
+	background-color: #D3D6FF;
+	padding: 20px;
+  	border-radius: 5px;	
+}
+.studentHeading {
+	font-size: 25px;
+    font-weight: bold;
+    color: #0099cc;
+    font-family: serif;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+.heading {
+	font-size: 25px;
+    font-weight: bold;
+    color: #0099cc;
+    font-family: serif;
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+}
+.loginForm label {
+  	color: #000;
+  	font-size: 15px;
+  	font-weight: 400;
+  	display: inline-block;
+  	margin-bottom: 20px;
+  	width: 100px;
+}
+.loginBtn {
+	margin: 10px 0px 0px 120px;
 }

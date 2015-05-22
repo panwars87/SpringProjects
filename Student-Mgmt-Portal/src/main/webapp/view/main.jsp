@@ -1,15 +1,23 @@
-<%@ include file="init.jsp" %>
+<%@ include file="init.jsp"%>
 
 <html>
-	<body>
-		<div>
-			<p>Login</p>
-			<c:url var="url" value="http://localhost:8090/Student-Portal/login/authenticateUser" />
-			<form action="${url }" id="loginForm">
-				<input type="text" name="firstName" />
-				<input type="text" name="password" />
-				<input type="submit" value="Submit">
-			</form>		
+<body>
+	<div class="heading">Login</div>
+	<div class="loginForm">	
+		<br />
+		<c:url var="url" value="http://localhost:8090/Student-Portal/login/authenticateUser" />
+		<div class="loginDiv">
+		<form action="${url }" id="loginForm">
+		
+			<label for="username">User Name</label>
+			<input id="username" name="username" type="text" name="firstName" />
+			<br />
+			<label for="password">Password:</label>
+			<input id="password" type="password" name="password" />
+			<br />
+			<button name="login" class="loginBtn btn btn-success" type="submit">Submit</button>
+		</form>
 		</div>
-	</body>
+	</div>
+</body>
 </html>

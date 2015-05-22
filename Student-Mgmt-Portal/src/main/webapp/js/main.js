@@ -33,3 +33,7 @@ function convertFormToJSON($form){
 
 	return indexed_array;
 };
+
+$(document).ready(function() {
+	$('#studentTable').DataTable();
+});
